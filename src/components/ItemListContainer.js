@@ -1,8 +1,9 @@
 import React from 'react';
+import Counter from './ItemCount';
 
-function ItemListContainer({greeting}) {
-  return (<>
-      <p>{greeting}</p>
-      </>);
+
+export default function ItemListContainer() {
+  return (
+        <Counter stock={5} initial={1} />
+  )
 }
-export default ItemListContainer;
