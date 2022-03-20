@@ -1,0 +1,11 @@
+.tarjeta{
+    display: grid;
+    background-color: gray;
+}
+.tarjeta p{
+    text-align: center;
+}
+.tarjeta img{
+    width: 1fr;
+    height: 1fr;    
+}

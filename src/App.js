@@ -6,7 +6,7 @@ import ItemListContainer from './components/ItemListContainer'
 function App () {
   
   return (<>
-    <buttom> Inicio</buttom >
+    <button> Inicio</button >
       <NavBar />
       <ItemListContainer />
       </>

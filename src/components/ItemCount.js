@@ -20,7 +20,7 @@ export default function Counter({ stock, initial }) {
             <div>
                 <button onClick={añadir}>+</button>
                 <p>{cantidad}</p>
-                <button onCLick={disminuir}>-</button>
+                <button onClick={disminuir}>-</button>
             </div>
             <div>
                 <button onClick= {onAdd}>añadir al carrito </button>
